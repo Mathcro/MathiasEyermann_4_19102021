@@ -705,7 +705,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.4em;
 }
 
@@ -715,6 +715,17 @@ h3 {
     font-weight: 700;
     color: #333333!important;
 }
+
+blockquote{
+    font-size: 15px;
+}
+
+blockquote p{
+    font-size: 20px;
+    color: #333333!important;
+    font-style: italic ;
+}
+
 
 .med-width-whitespace {
     max-width: 800px;
@@ -818,11 +829,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.jpeg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpeg");
 }
 
 @media (max-width: 1024px) {
